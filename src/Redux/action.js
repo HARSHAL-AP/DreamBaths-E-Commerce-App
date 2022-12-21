@@ -9,8 +9,8 @@ import {
   GET_PRODUCTS_SUCCESS,
 } from "./actiontypes";
 
-let apiproducts="https://dreambaths.onrender.com/products"
-let apiorders="https://dreambaths.onrender.com/products"
+let apiproducts="https://myapiproject.onrender.com/products"
+let apiorders="https://myapiproject.onrender.com/products"
 
 export const getproductrequest = () => {
   return {

@@ -44,7 +44,7 @@ import { DownloadIcon, SearchIcon } from "@chakra-ui/icons";
 import { EditPage } from "../Components/EditPage";
 import { Link } from "react-router-dom";
 import { Orderpage } from "./Orderpage";
-let api="https://dreambaths.onrender.com/products"
+let api="https://myapiproject.onrender.com/products"
 
 export const Admin = () => {
   const [rawData, setRawData] = useState({});

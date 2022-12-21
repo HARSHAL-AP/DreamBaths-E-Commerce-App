@@ -14,8 +14,8 @@ let styles = {
   alignItems: "center",
   justifyContent: "space-between",
 };
-let apiproduct="https://dreambaths.onrender.com/products"
-let apiorder="https://dreambaths.onrender.com/orders"
+let apiproduct="https://myapiproject.onrender.com/products"
+let apiorder="https://myapiproject.onrender.com/products"
 
 
 export const Cartpage = () => {

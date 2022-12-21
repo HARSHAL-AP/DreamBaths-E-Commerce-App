@@ -7,7 +7,7 @@ import { getproductsuccess } from "../Redux/action";
 import { useDispatch, useSelector } from "react-redux";
 import { FilterSort } from "../Components/FilterSort";
 import { useLocation, useSearchParams } from "react-router-dom";
-let api="https://dreambaths.onrender.com/products"
+let api="https://myapiproject.onrender.com/products"
 
 
 export const ProductPage = ({ category, cat1, cat2, cat3, cat4, heading }) => {

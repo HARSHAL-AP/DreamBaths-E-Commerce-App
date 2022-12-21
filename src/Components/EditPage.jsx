@@ -12,7 +12,7 @@ import {
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Singleproduct } from "./Singleproduct";
-let api="https://dreambaths.onrender.com/products"
+let api="https://myapiproject.onrender.com/products"
 
 let initState = {
   title: "[title here]",

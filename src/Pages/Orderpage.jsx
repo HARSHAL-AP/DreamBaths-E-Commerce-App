@@ -15,8 +15,8 @@ import {
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./Orderpage.css";
-let apiproducts="https://dreambaths.onrender.com/products"
-let apiorders="https://dreambaths.onrender.com/orders"
+let apiproducts="https://myapiproject.onrender.com/products"
+let apiorders="https://myapiproject.onrender.com/products"
 
 
 export const Orderpage = () => {
