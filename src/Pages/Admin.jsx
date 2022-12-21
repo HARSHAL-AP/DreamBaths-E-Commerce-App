@@ -196,7 +196,7 @@ export const Admin = () => {
       .get("${api}")
       .then((r) => setproductcount(r.data.length));
   }, [Productcount]);
-
+  console.log("test")
   return (
     <>
       <div className={styles.topbar}>
@@ -258,6 +258,7 @@ export const Admin = () => {
                 </Box>
               </Center>
             </Box>
+            
           </Text>
           <Text display="flex" alignItems="center" textAlign="left">
             E-Commerce
@@ -274,6 +275,7 @@ export const Admin = () => {
             >
               Dashboard
             </Button>
+
           </Text>
           <br />
           <Text onClick={visibleCategory}>
